@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd ~/Tae_programs/Take6/ 
+DATA='data/testdata.csv'
+FILENAME='data/bigdata.csv'
+TS='year=2001, creation_date=25APR04, agegroup=A01, sex=1, Acc=19  Iowa, ownercode=A00'
+{ time ./run.sh ${FILENAME} 20 41 "${TS}" ; } 2> bigdata20.time
+{ time ./run.sh ${FILENAME} 25 41 "${TS}" ; } 2> bigdata25.time
+{ time ./run.sh ${FILENAME} 30 41 "${TS}" ; } 2> bigdata30.time
+#{ time ./run.sh ${FILENAME} 32 41 "${TS}" ; } 2> bigdata32.time
+#{ time ./run.sh ${FILENAME} 34 41 "${TS}" ; } 2> bigdata34.time
+{ time ./run.sh ${FILENAME} 35 41 "${TS}" ; } 2> bigdata35.time
+#{ time ./run.sh ${FILENAME} 38 41 "${TS}" ; } 2> bigdata38.time
+{ time ./run.sh ${FILENAME} 40 41 "${TS}" ; } 2> bigdata40.time
+#{ time ./run.sh ${FILENAME} 42 41 "${TS}" ; } 2> bigdata42.time
+#{ time ./run.sh ${FILENAME} 44 41 "${TS}" ; } 2> bigdata44.time
+{ time ./run.sh ${FILENAME} 45 41 "${TS}" ; } 2> bigdata45.time
+#{ time ./run.sh ${FILENAME} 48 41 "${TS}" ; } 2> bigdata48.time
+{ time ./run.sh ${FILENAME} 50 41 "${TS}" ; } 2> bigdata50.time
+{ time ./run.sh ${FILENAME} 55 41 "${TS}" ; } 2> bigdata55.time
+{ time ./run.sh ${FILENAME} 60 41 "${TS}" ; } 2> bigdata60.time
+

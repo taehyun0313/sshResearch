@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd ~/Tae_programs/Take6/ 
+DATA='data/testdata.csv'
+FILENAME='data/bigdata.csv'
+TS='V3=2001, V1=25APR04, V15=A01, V13=1, V17=19  Iowa, V11=A00'
+{ time ./run.sh ${FILENAME} 20 41 "${TS}" ; } 2> DOESTHISWORK2.time
+#{ time ./run.sh ${FILENAME} 25 'EarnFul' "${TS}" ; } 2> bigdata25.time
+#{ time ./run.sh ${FILENAME} 30 'EarnFul' "${TS}" ; } 2> bigdata30.time
+#{ time ./run.sh ${FILENAME} 32 'EarnFul' "${TS}" ; } 2> bigdata32.time
+#{ time ./run.sh ${FILENAME} 34 'EarnFul' "${TS}" ; } 2> bigdata34.time
+#{ time ./run.sh ${FILENAME} 36 'EarnFul' "${TS}" ; } 2> bigdata36.time
+#{ time ./run.sh ${FILENAME} 38 'EarnFul' "${TS}" ; } 2> bigdata38.time
+#{ time ./run.sh ${FILENAME} 40 'EarnFul' "${TS}" ; } 2> bigdata40.time
+#{ time ./run.sh ${FILENAME} 42 'EarnFul' "${TS}" ; } 2> bigdata42.time
+#{ time ./run.sh ${FILENAME} 44 'EarnFul' "${TS}" ; } 2> bigdata44.time
+#{ time ./run.sh ${FILENAME} 46 'EarnFul' "${TS}" ; } 2> bigdata46.time
+#{ time ./run.sh ${FILENAME} 48 'EarnFul' "${TS}" ; } 2> bigdata48.time
+#{ time ./run.sh ${FILENAME} 50 'EarnFul' "${TS}" ; } 2> bigdata50.time
+#{ time ./run.sh ${FILENAME} 55 'EarnFul' "${TS}" ; } 2> bigdata55.time
+#{ time ./run.sh ${FILENAME} 60 'EarnFul' "${TS}" ; } 2> bigdata60.time
+
